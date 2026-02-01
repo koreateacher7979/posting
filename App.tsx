@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { generateLecturePosts } from './services/geminiService';
-import { LectureInfo, GeneratedPosts } from './types';
+import { generateLecturePosts } from './services/geminiService.js';
+import { LectureInfo, GeneratedPosts } from './types.js';
 import { 
   ClipboardCopy, 
   RotateCw, 
