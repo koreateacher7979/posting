@@ -1,14 +1,14 @@
 
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App.js';
+import { createRoot } from 'react-dom/client';
+import App from './App';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
-  throw new Error("Could not find root element to mount to");
+  throw new Error("뿌리(root) 요소를 찾을 수 없습니다.");
 }
 
-const root = ReactDOM.createRoot(rootElement);
+const root = createRoot(rootElement);
 root.render(
   <React.StrictMode>
     <App />
