@@ -1,5 +1,5 @@
 {
-  "name": "강의-포스팅-마스터---가치있는-미래교육-연구소",
+  "name": "가치있는-미래교육-포스팅-생성기",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,8 +11,8 @@
   "dependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "@google/genai": "1.3.0",
-    "lucide-react": "0.474.0"
+    "@google/genai": "^1.39.0",
+    "lucide-react": "^0.563.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

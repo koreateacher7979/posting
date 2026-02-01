@@ -4,16 +4,15 @@ export interface LectureInfo {
   dateTime: string;
   target: string;
   topic: string;
-  feedback: string;
+  reaction: string;
 }
 
-export interface GeneratedPosts {
-  instagram: {
-    content: string;
-    hashtags: string[];
-  };
-  naverBlog: {
-    title: string;
-    content: string;
-  };
+export interface GeneratedPost {
+  platform: 'Instagram' | 'NaverBlog';
+  content: string;
+}
+
+export interface GenerationResponse {
+  instagram: string;
+  naverBlog: string;
 }
